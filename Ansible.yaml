@@ -3,5 +3,5 @@
   become: true
   tasks:
     - name: Apply Deployment and Service
-      command: kubectl apply -f /home/ubuntu/Deployment.yml
+      command: kubectl apply -f /home/ubuntu/Deployment.yaml
 
